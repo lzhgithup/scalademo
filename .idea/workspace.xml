@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b03f6661-0f99-409b-8bbc-35cd0c9f8580" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxytest/test/MyLoggerProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxytest/test/MyLoggerProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/myfunction/MyFunctionsTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sort/BubbleSort.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +55,16 @@
     <property name="project.structure.side.proportion" value="0.2229885" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.MyLoggerProxyTest">
-    <configuration name="DelayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DelayQueueDemo" />
+  <component name="RunManager" selected="Application.MyFunctionsTest">
+    <configuration name="MyFunctionsTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="myfunction.MyFunctionsTest" />
       <module name="scalademo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myfunction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyFunctionsTest" />
         <item itemvalue="Application.MyLoggerProxyTest" />
         <item itemvalue="Application.ProxyTest2" />
         <item itemvalue="Application.ProxyTest1" />
         <item itemvalue="Application.ProxyTest" />
-        <item itemvalue="Application.DelayQueueDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +154,8 @@
       <workItem from="1589968670607" duration="4093000" />
       <workItem from="1590367567845" duration="446000" />
       <workItem from="1590375259434" duration="343000" />
-      <workItem from="1590375611558" duration="14150000" />
+      <workItem from="1590375611558" duration="20417000" />
+      <workItem from="1591836863883" duration="266000" />
     </task>
     <servers />
   </component>
@@ -175,22 +183,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="683" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585558073058" />
-    <state width="1877" height="125" key="GridCell.Tab.0.bottom" timestamp="1590484029617">
+    <state width="1877" height="125" key="GridCell.Tab.0.bottom" timestamp="1590970351568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="125" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590484029617" />
-    <state width="1877" height="125" key="GridCell.Tab.0.center" timestamp="1590484029617">
+    <state width="1877" height="125" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590970351568" />
+    <state width="1877" height="125" key="GridCell.Tab.0.center" timestamp="1590970351568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="125" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590484029617" />
-    <state width="1877" height="125" key="GridCell.Tab.0.left" timestamp="1590484029617">
+    <state width="1877" height="125" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590970351568" />
+    <state width="1877" height="125" key="GridCell.Tab.0.left" timestamp="1590970351568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="125" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590484029617" />
-    <state width="1877" height="125" key="GridCell.Tab.0.right" timestamp="1590484029617">
+    <state width="1877" height="125" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590970351568" />
+    <state width="1877" height="125" key="GridCell.Tab.0.right" timestamp="1590970351568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="125" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590484029617" />
+    <state width="1877" height="125" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590970351568" />
     <state width="1877" height="132" key="GridCell.Tab.1.bottom" timestamp="1590146053808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -211,5 +219,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590456886113" />
+    <state x="404" y="218" key="new project wizard" timestamp="1590540863331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="404" y="218" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590540863331" />
   </component>
 </project>
